@@ -309,9 +309,9 @@ def make_epw():
     df_epw.to_csv('2_Weather_File/EPW/hourly_data_2023.csv', index=False) 
 
 
-#get_authorize()
-#get_data()
-#read_NC4(folder_list)
+get_authorize()
+get_data()
+read_NC4(folder_list)
 make_epw()
 
 
